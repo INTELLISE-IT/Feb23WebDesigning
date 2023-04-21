@@ -1,0 +1,15 @@
+div {
+    max-width: 80%;
+    margin: auto;
+    background-color: grey;
+    padding: 15px;
+}
+h1 {
+    color: rgb(32, 32, 32);;
+}
+h2 {
+    color: silver
+}
+p {
+    color: white;
+}
