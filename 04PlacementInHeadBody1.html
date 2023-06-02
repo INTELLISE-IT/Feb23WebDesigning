@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript in HEAD and BODY</title>
+    <script type="text/javascript">
+        function sayHello() {
+            alert("Hello All!");
+        }
+        document.write("This text is from JavaScript, present inside the head tags.");
+    </script>
+</head>
+<body>
+    <h1>Placement of JavaScript</h1>
+    <h2>JavaScript inside the HEAD and BODY section.</h2>
+    <p>Execution of JavaScript on page render.</p>
+    <script type="text/javascript">
+        document.write("This text is from JavaScript, present inside the body tags.");
+        document.write("<h3>This H3 heading element is from the JavaScript.</h3>");
+    </script>
+    <p>First JavaScript, from the body tags, ends here.</p>
+    <button onclick="sayHello()">Say Hello</button>
+    <h2>Another JavaScript inside the BODY section.</h2>
+    <script type="text/javascript">
+        function sayGoodMorning() {
+            alert("Good Morning.");
+        }
+        document.write("<h3>This h3 element is from the second JavaScript present inside the body tags.</h3>");
+    </script>
+    <p>Second JavaScript, from the body tags, ends here.</p>
+    <button onclick="sayGoodMorning()">Say Good Morning</button>
+    <p>End of HTML web page.</p>
+</body>
+</html>
